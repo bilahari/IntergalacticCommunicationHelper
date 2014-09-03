@@ -1,0 +1,737 @@
+2014-07-28 02:56:56 [main] INFO  ConfigManager:27 - Loading config from the path : config\config.properties
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:28 - input line : glob is I
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-07-28 02:56:56 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:34 - Matching Regular Expression found
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:67 - Processing assertion : glob is I
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:28 - input line : prok is V
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-07-28 02:56:56 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:34 - Matching Regular Expression found
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:67 - Processing assertion : prok is V
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:28 - input line : pish is X
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-07-28 02:56:56 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:34 - Matching Regular Expression found
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:67 - Processing assertion : pish is X
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:28 - input line : tegj is L
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-07-28 02:56:56 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:34 - Matching Regular Expression found
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:67 - Processing assertion : tegj is L
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:28 - input line : glob glob Silver is 34 Credits
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-07-28 02:56:56 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:56:56 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:34 - Matching Regular Expression found
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:67 - Processing assertion : glob glob Silver is 34 Credits
+2014-07-28 02:56:56 [main] INFO  Symbols:32 - planetaryNumber got as : glob glob
+2014-07-28 02:56:56 [main] INFO  Symbols:50 - Converted Roman number : II
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:28 - input line : glob prok Gold is 57800 Credits
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-07-28 02:56:56 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:56:56 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:34 - Matching Regular Expression found
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:67 - Processing assertion : glob prok Gold is 57800 Credits
+2014-07-28 02:56:56 [main] INFO  Symbols:32 - planetaryNumber got as : glob prok
+2014-07-28 02:56:56 [main] INFO  Symbols:50 - Converted Roman number : IV
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:28 - input line : pish pish Iron is 3910 Credits
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-07-28 02:56:56 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:56:56 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:34 - Matching Regular Expression found
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:67 - Processing assertion : pish pish Iron is 3910 Credits
+2014-07-28 02:56:56 [main] INFO  Symbols:32 - planetaryNumber got as : pish pish
+2014-07-28 02:56:56 [main] INFO  Symbols:50 - Converted Roman number : XX
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:28 - input line : how much is pish tegj glob glob ?
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-07-28 02:56:56 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:56:56 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : How much is((\s(%SYMBOLS%))*)\s?\?*
+2014-07-28 02:56:56 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:34 - Matching Regular Expression found
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:60 - Processing query : how much is pish tegj glob glob ?
+2014-07-28 02:56:56 [main] INFO  Symbols:32 - planetaryNumber got as : pish tegj glob glob
+2014-07-28 02:56:56 [main] INFO  Symbols:50 - Converted Roman number : XLII
+2014-07-28 02:56:56 [main] INFO  QueryRegEx1:64 - Planetary Number : pish tegj glob glob | Roman Number : XLII | Decimal Number : 42
+2014-07-28 02:56:56 [main] INFO  QueryRegEx1:69 - Setting answer as : pish tegj glob glob is 42
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:28 - input line : how many Credits is glob prok Silver ?
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-07-28 02:56:56 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:56:56 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : How much is((\s(%SYMBOLS%))*)\s?\?*
+2014-07-28 02:56:56 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : How many credits is((\s(%PLANETARY_SYMBOLS%))*)\s(%COMMODITIES%)\s?\?*
+2014-07-28 02:56:56 [main] INFO  QueryRegEx2:28 - actual pattern	: How many credits is((\s(prok|tegj|pish|glob))*)\s(Silver|Gold|Iron)\s?\?*
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:34 - Matching Regular Expression found
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:60 - Processing query : how many Credits is glob prok Silver ?
+2014-07-28 02:56:56 [main] INFO  Symbols:32 - planetaryNumber got as :  glob prok
+2014-07-28 02:56:56 [main] INFO  Symbols:50 - Converted Roman number : IV
+2014-07-28 02:56:56 [main] INFO  QueryRegEx2:79 - Setting answer as :  glob prok Silver is 68 Credits
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:28 - input line : how many Credits is glob prok Gold ?
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-07-28 02:56:56 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:56:56 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : How much is((\s(%SYMBOLS%))*)\s?\?*
+2014-07-28 02:56:56 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : How many credits is((\s(%PLANETARY_SYMBOLS%))*)\s(%COMMODITIES%)\s?\?*
+2014-07-28 02:56:56 [main] INFO  QueryRegEx2:28 - actual pattern	: How many credits is((\s(prok|tegj|pish|glob))*)\s(Silver|Gold|Iron)\s?\?*
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:34 - Matching Regular Expression found
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:60 - Processing query : how many Credits is glob prok Gold ?
+2014-07-28 02:56:56 [main] INFO  Symbols:32 - planetaryNumber got as :  glob prok
+2014-07-28 02:56:56 [main] INFO  Symbols:50 - Converted Roman number : IV
+2014-07-28 02:56:56 [main] INFO  QueryRegEx2:79 - Setting answer as :  glob prok Gold is 57800 Credits
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:28 - input line : how many Credits is glob prok Iron ?
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-07-28 02:56:56 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:56:56 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : How much is((\s(%SYMBOLS%))*)\s?\?*
+2014-07-28 02:56:56 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : How many credits is((\s(%PLANETARY_SYMBOLS%))*)\s(%COMMODITIES%)\s?\?*
+2014-07-28 02:56:56 [main] INFO  QueryRegEx2:28 - actual pattern	: How many credits is((\s(prok|tegj|pish|glob))*)\s(Silver|Gold|Iron)\s?\?*
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:34 - Matching Regular Expression found
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:60 - Processing query : how many Credits is glob prok Iron ?
+2014-07-28 02:56:56 [main] INFO  Symbols:32 - planetaryNumber got as :  glob prok
+2014-07-28 02:56:56 [main] INFO  Symbols:50 - Converted Roman number : IV
+2014-07-28 02:56:56 [main] INFO  QueryRegEx2:79 - Setting answer as :  glob prok Iron is 782 Credits
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:28 - input line : how much wood could a woodchuck chuck if a woodchuck could chuck wood ?
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-07-28 02:56:56 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:56:56 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : How much is((\s(%SYMBOLS%))*)\s?\?*
+2014-07-28 02:56:56 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : How many credits is((\s(%PLANETARY_SYMBOLS%))*)\s(%COMMODITIES%)\s?\?*
+2014-07-28 02:56:56 [main] INFO  QueryRegEx2:28 - actual pattern	: How many credits is((\s(prok|tegj|pish|glob))*)\s(Silver|Gold|Iron)\s?\?*
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:32 - Regular expression : (How|What).*\?*
+2014-07-28 02:56:56 [main] INFO  UnRecQueryRegEx1:28 - actual pattern	: (How|What).*\?*
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:34 - Matching Regular Expression found
+2014-07-28 02:56:56 [main] INFO  ConversationProcessor:60 - Processing query : how much wood could a woodchuck chuck if a woodchuck could chuck wood ?
+2014-07-28 02:56:56 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:56:56 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:56:56 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-07-28 02:56:56 [main] INFO  QueryRegEx2:28 - actual pattern	: How many credits is((\s(prok|tegj|pish|glob))*)\s(Silver|Gold|Iron)\s?\?*
+2014-07-28 02:56:56 [main] INFO  PlanetConversationProcessor:64 - No of answers found : 5
+2014-07-28 02:59:36 [main] INFO  ConfigManager:27 - Loading config from the path : config\config.properties
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:28 - input line : glob is I
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-07-28 02:59:36 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:34 - Matching Regular Expression found
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:67 - Processing assertion : glob is I
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:28 - input line : prok is V
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-07-28 02:59:36 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:34 - Matching Regular Expression found
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:67 - Processing assertion : prok is V
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:28 - input line : pish is X
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-07-28 02:59:36 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:34 - Matching Regular Expression found
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:67 - Processing assertion : pish is X
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:28 - input line : tegj is L
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-07-28 02:59:36 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:34 - Matching Regular Expression found
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:67 - Processing assertion : tegj is L
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:28 - input line : glob glob Silver is 34 Credits
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-07-28 02:59:36 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:59:36 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:34 - Matching Regular Expression found
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:67 - Processing assertion : glob glob Silver is 34 Credits
+2014-07-28 02:59:36 [main] INFO  Symbols:32 - planetaryNumber got as : glob glob
+2014-07-28 02:59:36 [main] INFO  Symbols:50 - Converted Roman number : II
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:28 - input line : glob prok Gold is 57800 Credits
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-07-28 02:59:36 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:59:36 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:34 - Matching Regular Expression found
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:67 - Processing assertion : glob prok Gold is 57800 Credits
+2014-07-28 02:59:36 [main] INFO  Symbols:32 - planetaryNumber got as : glob prok
+2014-07-28 02:59:36 [main] INFO  Symbols:50 - Converted Roman number : IV
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:28 - input line : pish pish Iron is 3910 Credits
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-07-28 02:59:36 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:59:36 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:34 - Matching Regular Expression found
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:67 - Processing assertion : pish pish Iron is 3910 Credits
+2014-07-28 02:59:36 [main] INFO  Symbols:32 - planetaryNumber got as : pish pish
+2014-07-28 02:59:36 [main] INFO  Symbols:50 - Converted Roman number : XX
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:28 - input line : how much is pish tegj glob glob ?
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-07-28 02:59:36 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:59:36 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : How much is((\s(%SYMBOLS%))*)\s?\?*
+2014-07-28 02:59:36 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:34 - Matching Regular Expression found
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:60 - Processing query : how much is pish tegj glob glob ?
+2014-07-28 02:59:36 [main] INFO  Symbols:32 - planetaryNumber got as : pish tegj glob glob
+2014-07-28 02:59:36 [main] INFO  Symbols:50 - Converted Roman number : XLII
+2014-07-28 02:59:36 [main] INFO  QueryRegEx1:64 - Planetary Number : pish tegj glob glob | Roman Number : XLII | Decimal Number : 42
+2014-07-28 02:59:36 [main] INFO  QueryRegEx1:69 - Setting answer as : pish tegj glob glob is 42
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:28 - input line : how many Credits is glob prok Silver ?
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-07-28 02:59:36 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:59:36 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : How much is((\s(%SYMBOLS%))*)\s?\?*
+2014-07-28 02:59:36 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : How many credits is((\s(%PLANETARY_SYMBOLS%))*)\s(%COMMODITIES%)\s?\?*
+2014-07-28 02:59:36 [main] INFO  QueryRegEx2:28 - actual pattern	: How many credits is((\s(prok|tegj|pish|glob))*)\s(Silver|Gold|Iron)\s?\?*
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:34 - Matching Regular Expression found
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:60 - Processing query : how many Credits is glob prok Silver ?
+2014-07-28 02:59:36 [main] INFO  Symbols:32 - planetaryNumber got as :  glob prok
+2014-07-28 02:59:36 [main] INFO  Symbols:50 - Converted Roman number : IV
+2014-07-28 02:59:36 [main] INFO  QueryRegEx2:79 - Setting answer as :  glob prok Silver is 68 Credits
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:28 - input line : how many Credits is glob prok Gold ?
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-07-28 02:59:36 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:59:36 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : How much is((\s(%SYMBOLS%))*)\s?\?*
+2014-07-28 02:59:36 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : How many credits is((\s(%PLANETARY_SYMBOLS%))*)\s(%COMMODITIES%)\s?\?*
+2014-07-28 02:59:36 [main] INFO  QueryRegEx2:28 - actual pattern	: How many credits is((\s(prok|tegj|pish|glob))*)\s(Silver|Gold|Iron)\s?\?*
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:34 - Matching Regular Expression found
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:60 - Processing query : how many Credits is glob prok Gold ?
+2014-07-28 02:59:36 [main] INFO  Symbols:32 - planetaryNumber got as :  glob prok
+2014-07-28 02:59:36 [main] INFO  Symbols:50 - Converted Roman number : IV
+2014-07-28 02:59:36 [main] INFO  QueryRegEx2:79 - Setting answer as :  glob prok Gold is 57800 Credits
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:28 - input line : how many Credits is glob prok Iron ?
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-07-28 02:59:36 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:59:36 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : How much is((\s(%SYMBOLS%))*)\s?\?*
+2014-07-28 02:59:36 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : How many credits is((\s(%PLANETARY_SYMBOLS%))*)\s(%COMMODITIES%)\s?\?*
+2014-07-28 02:59:36 [main] INFO  QueryRegEx2:28 - actual pattern	: How many credits is((\s(prok|tegj|pish|glob))*)\s(Silver|Gold|Iron)\s?\?*
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:34 - Matching Regular Expression found
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:60 - Processing query : how many Credits is glob prok Iron ?
+2014-07-28 02:59:36 [main] INFO  Symbols:32 - planetaryNumber got as :  glob prok
+2014-07-28 02:59:36 [main] INFO  Symbols:50 - Converted Roman number : IV
+2014-07-28 02:59:36 [main] INFO  QueryRegEx2:79 - Setting answer as :  glob prok Iron is 782 Credits
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:28 - input line : how much wood could a woodchuck chuck if a woodchuck could chuck wood ?
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-07-28 02:59:36 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:59:36 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : How much is((\s(%SYMBOLS%))*)\s?\?*
+2014-07-28 02:59:36 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : How many credits is((\s(%PLANETARY_SYMBOLS%))*)\s(%COMMODITIES%)\s?\?*
+2014-07-28 02:59:36 [main] INFO  QueryRegEx2:28 - actual pattern	: How many credits is((\s(prok|tegj|pish|glob))*)\s(Silver|Gold|Iron)\s?\?*
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:47 - Regular Expression not matching
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:32 - Regular expression : (How|What).*\?*
+2014-07-28 02:59:36 [main] INFO  UnRecQueryRegEx1:28 - actual pattern	: (How|What).*\?*
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:34 - Matching Regular Expression found
+2014-07-28 02:59:36 [main] INFO  ConversationProcessor:60 - Processing query : how much wood could a woodchuck chuck if a woodchuck could chuck wood ?
+2014-07-28 02:59:36 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-07-28 02:59:36 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-07-28 02:59:36 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-07-28 02:59:36 [main] INFO  QueryRegEx2:28 - actual pattern	: How many credits is((\s(prok|tegj|pish|glob))*)\s(Silver|Gold|Iron)\s?\?*
+2014-07-28 02:59:36 [main] INFO  PlanetConversationProcessor:64 - No of answers found : 5
+2014-08-04 00:18:33 [main] INFO  ConfigManager:27 - Loading config from the path : config\config.properties
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:27 - input line : glob is I
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-08-04 00:18:33 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:66 - Processing assertion : glob is I
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:27 - input line : prok is V
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-08-04 00:18:33 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:66 - Processing assertion : prok is V
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:27 - input line : pish is X
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-08-04 00:18:33 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:66 - Processing assertion : pish is X
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:27 - input line : tegj is L
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-08-04 00:18:33 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:66 - Processing assertion : tegj is L
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:27 - input line : glob glob Silver is 34 Credits
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-08-04 00:18:33 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-04 00:18:33 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:66 - Processing assertion : glob glob Silver is 34 Credits
+2014-08-04 00:18:33 [main] INFO  Symbols:32 - planetaryNumber got as : glob glob
+2014-08-04 00:18:33 [main] INFO  Symbols:50 - Converted Roman number : II
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:27 - input line : glob prok Gold is 57800 Credits
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-08-04 00:18:33 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-04 00:18:33 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:66 - Processing assertion : glob prok Gold is 57800 Credits
+2014-08-04 00:18:33 [main] INFO  Symbols:32 - planetaryNumber got as : glob prok
+2014-08-04 00:18:33 [main] INFO  Symbols:50 - Converted Roman number : IV
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:27 - input line : pish pish Iron is 3910 Credits
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-08-04 00:18:33 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-04 00:18:33 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:66 - Processing assertion : pish pish Iron is 3910 Credits
+2014-08-04 00:18:33 [main] INFO  Symbols:32 - planetaryNumber got as : pish pish
+2014-08-04 00:18:33 [main] INFO  Symbols:50 - Converted Roman number : XX
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:27 - input line : how much is pish tegj glob glob ?
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-08-04 00:18:33 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-04 00:18:33 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How much is((\s(%SYMBOLS%))*)\s?\?*
+2014-08-04 00:18:33 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:59 - Processing query : how much is pish tegj glob glob ?
+2014-08-04 00:18:33 [main] INFO  Symbols:32 - planetaryNumber got as : pish tegj glob glob
+2014-08-04 00:18:33 [main] INFO  Symbols:50 - Converted Roman number : XLII
+2014-08-04 00:18:33 [main] INFO  QueryRegEx1:64 - Planetary Number : pish tegj glob glob | Roman Number : XLII | Decimal Number : 42
+2014-08-04 00:18:33 [main] INFO  QueryRegEx1:69 - Setting answer as : pish tegj glob glob is 42
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:27 - input line : how many Credits is glob prok Silver ?
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-08-04 00:18:33 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-04 00:18:33 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How much is((\s(%SYMBOLS%))*)\s?\?*
+2014-08-04 00:18:33 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How many credits is((\s(%PLANETARY_SYMBOLS%))*)\s(%COMMODITIES%)\s?\?*
+2014-08-04 00:18:33 [main] INFO  QueryRegEx2:28 - actual pattern	: How many credits is((\s(prok|tegj|pish|glob))*)\s(Silver|Gold|Iron)\s?\?*
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:59 - Processing query : how many Credits is glob prok Silver ?
+2014-08-04 00:18:33 [main] INFO  Symbols:32 - planetaryNumber got as :  glob prok
+2014-08-04 00:18:33 [main] INFO  Symbols:50 - Converted Roman number : IV
+2014-08-04 00:18:33 [main] INFO  QueryRegEx2:79 - Setting answer as :  glob prok Silver is 68 Credits
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:27 - input line : how many Credits is glob prok Gold ?
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-08-04 00:18:33 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-04 00:18:33 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How much is((\s(%SYMBOLS%))*)\s?\?*
+2014-08-04 00:18:33 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How many credits is((\s(%PLANETARY_SYMBOLS%))*)\s(%COMMODITIES%)\s?\?*
+2014-08-04 00:18:33 [main] INFO  QueryRegEx2:28 - actual pattern	: How many credits is((\s(prok|tegj|pish|glob))*)\s(Silver|Gold|Iron)\s?\?*
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:59 - Processing query : how many Credits is glob prok Gold ?
+2014-08-04 00:18:33 [main] INFO  Symbols:32 - planetaryNumber got as :  glob prok
+2014-08-04 00:18:33 [main] INFO  Symbols:50 - Converted Roman number : IV
+2014-08-04 00:18:33 [main] INFO  QueryRegEx2:79 - Setting answer as :  glob prok Gold is 57800 Credits
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:27 - input line : how many Credits is glob prok Iron ?
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-08-04 00:18:33 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-04 00:18:33 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How much is((\s(%SYMBOLS%))*)\s?\?*
+2014-08-04 00:18:33 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How many credits is((\s(%PLANETARY_SYMBOLS%))*)\s(%COMMODITIES%)\s?\?*
+2014-08-04 00:18:33 [main] INFO  QueryRegEx2:28 - actual pattern	: How many credits is((\s(prok|tegj|pish|glob))*)\s(Silver|Gold|Iron)\s?\?*
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:59 - Processing query : how many Credits is glob prok Iron ?
+2014-08-04 00:18:33 [main] INFO  Symbols:32 - planetaryNumber got as :  glob prok
+2014-08-04 00:18:33 [main] INFO  Symbols:50 - Converted Roman number : IV
+2014-08-04 00:18:33 [main] INFO  QueryRegEx2:79 - Setting answer as :  glob prok Iron is 782 Credits
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:27 - input line : how much wood could a woodchuck chuck if a woodchuck could chuck wood ?
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-08-04 00:18:33 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-04 00:18:33 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How much is((\s(%SYMBOLS%))*)\s?\?*
+2014-08-04 00:18:33 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How many credits is((\s(%PLANETARY_SYMBOLS%))*)\s(%COMMODITIES%)\s?\?*
+2014-08-04 00:18:33 [main] INFO  QueryRegEx2:28 - actual pattern	: How many credits is((\s(prok|tegj|pish|glob))*)\s(Silver|Gold|Iron)\s?\?*
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (How|What).*\?*
+2014-08-04 00:18:33 [main] INFO  UnRecQueryRegEx1:28 - actual pattern	: (How|What).*\?*
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-08-04 00:18:33 [main] INFO  ConversationProcessor:59 - Processing query : how much wood could a woodchuck chuck if a woodchuck could chuck wood ?
+2014-08-04 00:18:33 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-04 00:18:33 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-04 00:18:33 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-08-04 00:18:33 [main] INFO  QueryRegEx2:28 - actual pattern	: How many credits is((\s(prok|tegj|pish|glob))*)\s(Silver|Gold|Iron)\s?\?*
+2014-08-04 00:18:33 [main] INFO  PlanetConversationProcessor:66 - No of answers found : 5
+2014-08-30 13:05:14 [main] WARN  XmlBeanDefinitionReader:47 - Ignored XML validation warning
+org.xml.sax.SAXParseException: schema_reference.4: Failed to read schema document 'http://www.springframework.org/schema/beans/spring-beans-3.2.xsd', because 1) could not find the document; 2) the document could not be read; 3) the root element of the document is not <xsd:schema>.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.warning(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.reportSchemaErr(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.reportSchemaWarning(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.getSchemaDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.parseSchema(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadSchema(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.findSchemaGrammar(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:75)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:388)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:243)
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:127)
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:93)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:451)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at ich.App.main(App.java:12)
+2014-08-30 13:07:49 [main] INFO  ConfigManager:27 - Loading config from the path : config\config.properties
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:27 - input line : glob is I
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-08-30 13:07:49 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:66 - Processing assertion : glob is I
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:27 - input line : prok is V
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-08-30 13:07:49 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:66 - Processing assertion : prok is V
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:27 - input line : pish is X
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-08-30 13:07:49 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:66 - Processing assertion : pish is X
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:27 - input line : tegj is L
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-08-30 13:07:49 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:66 - Processing assertion : tegj is L
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:27 - input line : glob glob Silver is 34 Credits
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-08-30 13:07:49 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-30 13:07:49 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:66 - Processing assertion : glob glob Silver is 34 Credits
+2014-08-30 13:07:49 [main] INFO  Symbols:32 - planetaryNumber got as : glob glob
+2014-08-30 13:07:49 [main] INFO  Symbols:50 - Converted Roman number : II
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:27 - input line : glob prok Gold is 57800 Credits
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-08-30 13:07:49 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-30 13:07:49 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:66 - Processing assertion : glob prok Gold is 57800 Credits
+2014-08-30 13:07:49 [main] INFO  Symbols:32 - planetaryNumber got as : glob prok
+2014-08-30 13:07:49 [main] INFO  Symbols:50 - Converted Roman number : IV
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:27 - input line : pish pish Iron is 3910 Credits
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-08-30 13:07:49 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-30 13:07:49 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:66 - Processing assertion : pish pish Iron is 3910 Credits
+2014-08-30 13:07:49 [main] INFO  Symbols:32 - planetaryNumber got as : pish pish
+2014-08-30 13:07:49 [main] INFO  Symbols:50 - Converted Roman number : XX
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:27 - input line : how much is pish tegj glob glob ?
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-08-30 13:07:49 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-30 13:07:49 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How much is((\s(%SYMBOLS%))*)\s?\?*
+2014-08-30 13:07:49 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:59 - Processing query : how much is pish tegj glob glob ?
+2014-08-30 13:07:49 [main] INFO  Symbols:32 - planetaryNumber got as : pish tegj glob glob
+2014-08-30 13:07:49 [main] INFO  Symbols:50 - Converted Roman number : XLII
+2014-08-30 13:07:49 [main] INFO  QueryRegEx1:64 - Planetary Number : pish tegj glob glob | Roman Number : XLII | Decimal Number : 42
+2014-08-30 13:07:49 [main] INFO  QueryRegEx1:69 - Setting answer as : pish tegj glob glob is 42
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:27 - input line : how many Credits is glob prok Silver ?
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-08-30 13:07:49 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-30 13:07:49 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How much is((\s(%SYMBOLS%))*)\s?\?*
+2014-08-30 13:07:49 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How many credits is((\s(%PLANETARY_SYMBOLS%))*)\s(%COMMODITIES%)\s?\?*
+2014-08-30 13:07:49 [main] INFO  QueryRegEx2:28 - actual pattern	: How many credits is((\s(prok|tegj|pish|glob))*)\s(Silver|Gold|Iron)\s?\?*
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:59 - Processing query : how many Credits is glob prok Silver ?
+2014-08-30 13:07:49 [main] INFO  Symbols:32 - planetaryNumber got as :  glob prok
+2014-08-30 13:07:49 [main] INFO  Symbols:50 - Converted Roman number : IV
+2014-08-30 13:07:49 [main] INFO  QueryRegEx2:79 - Setting answer as :  glob prok Silver is 68 Credits
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:27 - input line : how many Credits is glob prok Gold ?
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-08-30 13:07:49 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-30 13:07:49 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How much is((\s(%SYMBOLS%))*)\s?\?*
+2014-08-30 13:07:49 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How many credits is((\s(%PLANETARY_SYMBOLS%))*)\s(%COMMODITIES%)\s?\?*
+2014-08-30 13:07:49 [main] INFO  QueryRegEx2:28 - actual pattern	: How many credits is((\s(prok|tegj|pish|glob))*)\s(Silver|Gold|Iron)\s?\?*
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:59 - Processing query : how many Credits is glob prok Gold ?
+2014-08-30 13:07:49 [main] INFO  Symbols:32 - planetaryNumber got as :  glob prok
+2014-08-30 13:07:49 [main] INFO  Symbols:50 - Converted Roman number : IV
+2014-08-30 13:07:49 [main] INFO  QueryRegEx2:79 - Setting answer as :  glob prok Gold is 57800 Credits
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:27 - input line : how many Credits is glob prok Iron ?
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-08-30 13:07:49 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-30 13:07:49 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How much is((\s(%SYMBOLS%))*)\s?\?*
+2014-08-30 13:07:49 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How many credits is((\s(%PLANETARY_SYMBOLS%))*)\s(%COMMODITIES%)\s?\?*
+2014-08-30 13:07:49 [main] INFO  QueryRegEx2:28 - actual pattern	: How many credits is((\s(prok|tegj|pish|glob))*)\s(Silver|Gold|Iron)\s?\?*
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:59 - Processing query : how many Credits is glob prok Iron ?
+2014-08-30 13:07:49 [main] INFO  Symbols:32 - planetaryNumber got as :  glob prok
+2014-08-30 13:07:49 [main] INFO  Symbols:50 - Converted Roman number : IV
+2014-08-30 13:07:49 [main] INFO  QueryRegEx2:79 - Setting answer as :  glob prok Iron is 782 Credits
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:27 - input line : how much wood could a woodchuck chuck if a woodchuck could chuck wood ?
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-08-30 13:07:49 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-30 13:07:49 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How much is((\s(%SYMBOLS%))*)\s?\?*
+2014-08-30 13:07:49 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How many credits is((\s(%PLANETARY_SYMBOLS%))*)\s(%COMMODITIES%)\s?\?*
+2014-08-30 13:07:49 [main] INFO  QueryRegEx2:28 - actual pattern	: How many credits is((\s(prok|tegj|pish|glob))*)\s(Silver|Gold|Iron)\s?\?*
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (How|What).*\?*
+2014-08-30 13:07:49 [main] INFO  UnRecQueryRegEx1:28 - actual pattern	: (How|What).*\?*
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-08-30 13:07:49 [main] INFO  ConversationProcessor:59 - Processing query : how much wood could a woodchuck chuck if a woodchuck could chuck wood ?
+2014-08-30 13:07:49 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-08-30 13:07:49 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-08-30 13:07:49 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-08-30 13:07:49 [main] INFO  QueryRegEx2:28 - actual pattern	: How many credits is((\s(prok|tegj|pish|glob))*)\s(Silver|Gold|Iron)\s?\?*
+2014-08-30 13:07:49 [main] INFO  PlanetConversationProcessor:66 - No of answers found : 5
+2014-09-01 20:31:19 [main] INFO  ConfigManager:27 - Loading config from the path : config\config.properties
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:27 - input line : glob is I
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-09-01 20:31:19 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:66 - Processing assertion : glob is I
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:27 - input line : prok is V
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-09-01 20:31:19 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:66 - Processing assertion : prok is V
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:27 - input line : pish is X
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-09-01 20:31:19 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:66 - Processing assertion : pish is X
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:27 - input line : tegj is L
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-09-01 20:31:19 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:66 - Processing assertion : tegj is L
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:27 - input line : glob glob Silver is 34 Credits
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-09-01 20:31:19 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-09-01 20:31:19 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:66 - Processing assertion : glob glob Silver is 34 Credits
+2014-09-01 20:31:19 [main] INFO  Symbols:32 - planetaryNumber got as : glob glob
+2014-09-01 20:31:19 [main] INFO  Symbols:50 - Converted Roman number : II
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:27 - input line : glob prok Gold is 57800 Credits
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-09-01 20:31:19 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-09-01 20:31:19 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-09-01 20:31:19 [main] INFO  ConversationProcessor:66 - Processing assertion : glob prok Gold is 57800 Credits
+2014-09-01 20:31:19 [main] INFO  Symbols:32 - planetaryNumber got as : glob prok
+2014-09-01 20:31:19 [main] INFO  Symbols:50 - Converted Roman number : IV
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:27 - input line : pish pish Iron is 3910 Credits
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-09-01 20:31:20 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-09-01 20:31:20 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:66 - Processing assertion : pish pish Iron is 3910 Credits
+2014-09-01 20:31:20 [main] INFO  Symbols:32 - planetaryNumber got as : pish pish
+2014-09-01 20:31:20 [main] INFO  Symbols:50 - Converted Roman number : XX
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:27 - input line : how much is pish tegj glob glob ?
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-09-01 20:31:20 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-09-01 20:31:20 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How much is((\s(%SYMBOLS%))*)\s?\?*
+2014-09-01 20:31:20 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:59 - Processing query : how much is pish tegj glob glob ?
+2014-09-01 20:31:20 [main] INFO  Symbols:32 - planetaryNumber got as : pish tegj glob glob
+2014-09-01 20:31:20 [main] INFO  Symbols:50 - Converted Roman number : XLII
+2014-09-01 20:31:20 [main] INFO  QueryRegEx1:64 - Planetary Number : pish tegj glob glob | Roman Number : XLII | Decimal Number : 42
+2014-09-01 20:31:20 [main] INFO  QueryRegEx1:69 - Setting answer as : pish tegj glob glob is 42
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:27 - input line : how many Credits is glob prok Silver ?
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-09-01 20:31:20 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-09-01 20:31:20 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How much is((\s(%SYMBOLS%))*)\s?\?*
+2014-09-01 20:31:20 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How many credits is((\s(%PLANETARY_SYMBOLS%))*)\s(%COMMODITIES%)\s?\?*
+2014-09-01 20:31:20 [main] INFO  QueryRegEx2:28 - actual pattern	: How many credits is((\s(prok|tegj|pish|glob))*)\s(Silver|Gold|Iron)\s?\?*
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:59 - Processing query : how many Credits is glob prok Silver ?
+2014-09-01 20:31:20 [main] INFO  Symbols:32 - planetaryNumber got as :  glob prok
+2014-09-01 20:31:20 [main] INFO  Symbols:50 - Converted Roman number : IV
+2014-09-01 20:31:20 [main] INFO  QueryRegEx2:79 - Setting answer as :  glob prok Silver is 68 Credits
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:27 - input line : how many Credits is glob prok Gold ?
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-09-01 20:31:20 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-09-01 20:31:20 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How much is((\s(%SYMBOLS%))*)\s?\?*
+2014-09-01 20:31:20 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How many credits is((\s(%PLANETARY_SYMBOLS%))*)\s(%COMMODITIES%)\s?\?*
+2014-09-01 20:31:20 [main] INFO  QueryRegEx2:28 - actual pattern	: How many credits is((\s(prok|tegj|pish|glob))*)\s(Silver|Gold|Iron)\s?\?*
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:59 - Processing query : how many Credits is glob prok Gold ?
+2014-09-01 20:31:20 [main] INFO  Symbols:32 - planetaryNumber got as :  glob prok
+2014-09-01 20:31:20 [main] INFO  Symbols:50 - Converted Roman number : IV
+2014-09-01 20:31:20 [main] INFO  QueryRegEx2:79 - Setting answer as :  glob prok Gold is 57800 Credits
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:27 - input line : how many Credits is glob prok Iron ?
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-09-01 20:31:20 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-09-01 20:31:20 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How much is((\s(%SYMBOLS%))*)\s?\?*
+2014-09-01 20:31:20 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How many credits is((\s(%PLANETARY_SYMBOLS%))*)\s(%COMMODITIES%)\s?\?*
+2014-09-01 20:31:20 [main] INFO  QueryRegEx2:28 - actual pattern	: How many credits is((\s(prok|tegj|pish|glob))*)\s(Silver|Gold|Iron)\s?\?*
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:59 - Processing query : how many Credits is glob prok Iron ?
+2014-09-01 20:31:20 [main] INFO  Symbols:32 - planetaryNumber got as :  glob prok
+2014-09-01 20:31:20 [main] INFO  Symbols:50 - Converted Roman number : IV
+2014-09-01 20:31:20 [main] INFO  QueryRegEx2:79 - Setting answer as :  glob prok Iron is 782 Credits
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:27 - input line : how much wood could a woodchuck chuck if a woodchuck could chuck wood ?
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (\w*)\sis\s(%ROMAN_SYMBOLS%)
+2014-09-01 20:31:20 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (((%PLANETARY_SYMBOLS%)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-09-01 20:31:20 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How much is((\s(%SYMBOLS%))*)\s?\?*
+2014-09-01 20:31:20 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: How many credits is((\s(%PLANETARY_SYMBOLS%))*)\s(%COMMODITIES%)\s?\?*
+2014-09-01 20:31:20 [main] INFO  QueryRegEx2:28 - actual pattern	: How many credits is((\s(prok|tegj|pish|glob))*)\s(Silver|Gold|Iron)\s?\?*
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:46 - Regular Expression not matching
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:31 - Regular expression currently evaluating: (How|What).*\?*
+2014-09-01 20:31:20 [main] INFO  UnRecQueryRegEx1:28 - actual pattern	: (How|What).*\?*
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:33 - Matching Regular Expression found
+2014-09-01 20:31:20 [main] INFO  ConversationProcessor:59 - Processing query : how much wood could a woodchuck chuck if a woodchuck could chuck wood ?
+2014-09-01 20:31:20 [main] INFO  AssertionRegEx1:27 - actual pattern	: (\w*)\sis\s(I|V|X|L|C|D|M)
+2014-09-01 20:31:20 [main] INFO  AssertionRegEx2:28 - actual pattern	: (((prok|tegj|pish|glob)\s)*)(\w*)\sis\s(\d*)\sCredits
+2014-09-01 20:31:20 [main] INFO  QueryRegEx1:27 - actual pattern	: How much is((\s(prok|tegj|pish|glob))*)\s?\?*
+2014-09-01 20:31:20 [main] INFO  QueryRegEx2:28 - actual pattern	: How many credits is((\s(prok|tegj|pish|glob))*)\s(Silver|Gold|Iron)\s?\?*
+2014-09-01 20:31:20 [main] INFO  PlanetConversationProcessor:66 - No of answers found : 5

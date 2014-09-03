@@ -1,0 +1,7 @@
+1.	type the command 'mvn package'
+		executable jar will be created inside the 'target' folder
+2.	type the command 'java -jar IntergalacticCommunicationHelper-1.0.0-jar-with-dependencies.jar'
+
+If the inputs are taken from file the file name can be specified in resource/config.properties
+
+
